@@ -15,6 +15,7 @@ services:
    wordpress:
      depends_on:
        - db
+     build: ./docker/wordpress
      image: wp-4.7.3:latest
      ports:
        - "8000:80"

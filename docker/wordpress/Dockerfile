@@ -1,6 +1,6 @@
 # Install the latest wordpress for docker compose and also add the www-data module
 
-FROM wordpress:4.7.3-apache
+FROM wordpress:4.8.0-apache
 MAINTAINER Draco Yam
 
 # enable install and user right
